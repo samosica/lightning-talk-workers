@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "deploy-test": "./deploy.sh .clasp.test.json",
+    "deploy-prod": "./deploy.sh .clasp.prod.json"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.41",
+    "typescript": "^3.8.2"
+  }
+}
